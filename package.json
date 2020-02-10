@@ -1,0 +1,19 @@
+{
+  "name": "gdl004-md-links",
+  "version": "1.0.0",
+  "description": "## Índice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabiolaTP/GDL004-md-links.git"
+  },
+  "author": "Fabiola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabiolaTP/GDL004-md-links/issues"
+  },
+  "homepage": "https://github.com/FabiolaTP/GDL004-md-links#readme"
+}
