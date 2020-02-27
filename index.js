@@ -17,12 +17,12 @@ const validateMD = () => {
 }
 console.log(validateMD(file));
 
-//
+//lee el archivo/read the file
 const readFileMd = fs.readFile( file, "utf8", (err, data) => {
     if (validateMD(file) === false) {
       console.log(err);
     } 
-    else {
+    else { //Buscando links/finding links
       const findLink = new RegExp(/https?:\/\/[\w\.\-]+\.\w{2,5}[^\s\)]+/g);
       const links = data.match(findLink);
       console.log(links);
